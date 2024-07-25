@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding: 10px 10px;
+    gap:60px
+}
+
+.randomLable {
+    font-size: 5em;
+    text-align: center;
+    border: 3px solid #ddd;
+}
+#randomBtn{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: rgb(96, 145, 188);
+    border: none;
+    outline: none;
+    cursor: pointer;
+   
+
+}
+
+#randomBtn:hover{
+    background-color: rgb(22, 107, 235);
+}

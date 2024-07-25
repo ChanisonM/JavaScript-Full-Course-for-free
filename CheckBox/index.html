@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Box</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="grid-container">
+            <input type="checkbox" name="subscribe" id="subscribe">
+            <label for="subscribe">Subscribe</label>
+
+        <div class="grid-box-1">
+            <div class="grid-items">
+                <input type="radio" name="card" id="visaBtn">
+                <label for="visaBtn">Visa</label>
+            </div>
+            <div class="grid-items">
+                <input type="radio" name="card" id="masterCardBtn">
+                <label for="masterCardBtn">Master Card</label>
+            </div>
+            <div class="grid-items">
+                <input type="radio" name="card" id="paypalBtn">
+                <label for="paypalBtn">Paypal</label>
+            </div>
+        </div>
+        <div class="grid-box-2">
+            <button type="submit" id="submit" onclick="func_submit()">Submit</button>
+            <button type="submit" id="reset" onclick="func_reset()">Reset</button>
+        </div>
+    </div>
+
+        <div class="content">
+            <p id="subResult"></p>
+            <p id="paymentResult"></p>
+        </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
